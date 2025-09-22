@@ -1,0 +1,22 @@
+<!-- Existing code above this line -->
+
+<!-- Analytics Feature Start -->
+<div id="analytics-section" style="margin-top: 30px;">
+    <h2>Analytics</h2>
+    <button onclick="showAnalytics()">Show Analytics</button>
+    <div id="analytics-data" style="display:none; margin-top:15px;">
+        <p><strong>Total Users:</strong> 120</p>
+        <p><strong>Active Sessions:</strong> 15</p>
+        <p><strong>Reports Generated:</strong> 32</p>
+        <!-- You can add charts or more data here -->
+    </div>
+</div>
+<script>
+function showAnalytics() {
+    var dataDiv = document.getElementById('analytics-data');
+    dataDiv.style.display = dataDiv.style.display === 'none' ? 'block' : 'none';
+}
+</script>
+<!-- Analytics Feature End -->
+
+<!-- Existing code below this line -->
